@@ -1,0 +1,23 @@
+version: '3.8'
+tasks:
+  generate:
+    cmds:
+      - go generate ./jsonrpc
+    sources:
+      - './jsonrpc/jsonrpc.go'
+    generates:
+      - './jsonrpc/jsonrpc_easyjson.go'
+  build:
+    deps:
+      - generate
+    cmds:
+      - tinygo build -target pico -o build/gamepad-emulator.uf2 .
+    sources:
+      - '**/*.go'
+    generates:
+      - build/gamepad-emulator.uf2
+  flash:
+    deps:
+      - build
+    cmds:
+      - tinygo flash -target pico .

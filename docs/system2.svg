@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="150.5mm"
+   height="190.5mm"
+   viewBox="0 0 150.5 190.5"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="system2.svg"
+   inkscape:export-filename="system1.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.0316077"
+     inkscape:cx="467.23186"
+     inkscape:cy="397.92257"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-24.75"
+       originy="0.24999949"
+       spacingx="5"
+       spacingy="5"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-24.750001,0.24999949)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ffffd0;stroke-width:0.499999;stroke-linecap:round;stroke-opacity:1"
+       id="rect4"
+       width="150"
+       height="190"
+       x="25"
+       y="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round"
+       d="m 49.999997,45.000001 c 0,0 20,-4.999999 50,-4.999999 30.000003,0 49.999993,4.999999 49.999993,4.999999 v 5 c 0,0 -19.99999,-5 -49.999993,-5 -30,0 -50,5 -50,5 z"
+       id="path1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#00ffd0;stroke-width:0.499999;stroke-linecap:round;stroke-opacity:1"
+       d="M 40.000001,10 85.000002,160 170,10"
+       id="path4"
+       sodipodi:nodetypes="ccc" />
+    <g
+       id="g2"
+       transform="translate(-14.999998,39.999992)">
+      <ellipse
+         style="fill:#eff1d0;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round"
+         id="path2"
+         cx="100"
+         cy="120"
+         rx="19.999998"
+         ry="20" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:6.35007px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round"
+         x="100"
+         y="120.00001"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="font-size:6.35px;line-height:6.35007px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="100"
+           y="120.00001">頭部</tspan></text>
+    </g>
+    <g
+       id="g4">
+      <path
+         id="rect1"
+         style="fill:#eff1d0;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round"
+         d="m 110.0003,47.499657 -4e-4,-5.000212 -4.9997,4.03e-4 -4e-4,-4.999695 -9.999906,8.08e-4 4.04e-4,4.999695 -5.00021,4.03e-4 4.04e-4,5.000212 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:6.35008px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-opacity:1"
+         x="100"
+         y="34.999996"
+         id="text4"><tspan
+           sodipodi:role="line"
+           id="tspan4"
+           style="stroke-width:0.5;stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1"
+           x="100"
+           y="34.999996">Webカメラ</tspan></text>
+    </g>
+  </g>
+</svg>
