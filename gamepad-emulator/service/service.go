@@ -14,12 +14,11 @@ import (
 type method func(params map[string]any) (any, error)
 
 type JoyStick struct {
-	js      JoySticker
 	methods map[string]method
 }
 
 func New() *JoyStick {
-	j := &JoyStick{js: joystick.Port()}
+	j := &JoyStick{}
 	j.methods = map[string]method{
 		"Button": func(params map[string]any) (any, error) {
 			arg, ok := params["index"]
@@ -30,7 +29,7 @@ func New() *JoyStick {
 			if !ok {
 				return nil, fmt.Errorf("invalid argument: index")
 			}
-			return j.js.Button(int(v)), nil
+			return js.Button(int(v)), nil
 		},
 		"SetButton": func(params map[string]any) (any, error) {
 			arg1, ok := params["index"]
@@ -49,7 +48,7 @@ func New() *JoyStick {
 			if !ok {
 				return nil, fmt.Errorf("invalid argument: push")
 			}
-			j.js.SetButton(int(v1), v2)
+			js.SetButton(int(v1), v2)
 			return true, nil
 		},
 		"Hat": func(params map[string]any) (any, error) {
@@ -61,7 +60,7 @@ func New() *JoyStick {
 			if !ok {
 				return nil, fmt.Errorf("invalid argument: index")
 			}
-			return j.js.Hat(int(v)), nil
+			return js.Hat(int(v)), nil
 		},
 		"SetHat": func(params map[string]any) (any, error) {
 			arg1, ok := params["index"]
@@ -80,7 +79,7 @@ func New() *JoyStick {
 			if !ok {
 				return nil, fmt.Errorf("invalid argument: dir")
 			}
-			j.js.SetHat(int(v1), joystick.HatDirection(uint8(v2)))
+			js.SetHat(int(v1), joystick.HatDirection(uint8(v2)))
 			return true, nil
 		},
 		"Axis": func(params map[string]any) (any, error) {
@@ -92,7 +91,7 @@ func New() *JoyStick {
 			if !ok {
 				return nil, fmt.Errorf("invalid argument: index")
 			}
-			return j.js.Axis(int(v)), nil
+			return js.Axis(int(v)), nil
 		},
 		"SetAxis": func(params map[string]any) (any, error) {
 			arg1, ok := params["index"]
@@ -111,11 +110,11 @@ func New() *JoyStick {
 			if !ok {
 				return nil, fmt.Errorf("invalid argument: value")
 			}
-			j.js.SetAxis(int(v1), int(v2))
+			js.SetAxis(int(v1), int(v2))
 			return true, nil
 		},
 		"SendState": func(params map[string]any) (any, error) {
-			j.js.SendState()
+			js.SendState()
 			return true, nil
 		},
 	}
